@@ -83,14 +83,20 @@ function Home() {
             mode={ac.mode}
           />
           <div className="text-center">
-            <Box sx={{mt:2}}>
-            <Button variant="outlined" href="https://fan.faxiaosi.com/img/aamic-m8v4o1.jpg" target="_blank">
-            🍉
+            <Box sx={{ mt: 2 }}>
+              <Button variant="outlined" href="https://fan.faxiaosi.com/img/aamic-m8v4o1.jpg" target="_blank">
+                🍉
             </Button>
             </Box>
           </div>
           <RemoteControl />
-          
+          <div className="text-center">
+            <Box sx={{ mt: 2 }}>
+              <Button variant="outlined" href="https://fan.faxiaosi.com" target="_blank">
+                夏日清凉小风扇
+            </Button>
+            </Box>
+          </div>
         </Box>
         <Toast />
       </Container>
