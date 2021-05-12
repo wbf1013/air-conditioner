@@ -2,6 +2,7 @@ import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
+// import Link from "@material-ui/core/Link"
 
 import ProTip from "../components/ProTip";
 import RemoteControl from "../components/RemoteControl";
@@ -13,7 +14,7 @@ import { ThemeProvider } from "../theme";
 
 import { useAppDispatch, useAppSelector } from "../app/hooks";
 import { RootState } from "../app/store";
-import Copyright from "../layouts/Copyright";
+
 import {
   AcMode,
   acItemKey,
@@ -94,7 +95,11 @@ function Home() {
             </Box>
           </div>
           <RemoteControl />
-          <Copyright />
+          <div className="text-center">
+            <Button variant="outlined" href="https://fan.faxiaosi.com/img/aamic-m8v4o1.jpg" target="_blank">
+            空调房里吃🍉
+            </Button>
+          </div>
         </Box>
         <Toast />
       </Container>

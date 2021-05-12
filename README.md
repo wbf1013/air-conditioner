@@ -1,13 +1,6 @@
 # Air Conditioner
 
-[![Github Pages](https://github.com/YunYouJun/air-conditioner/workflows/Github%20Pages/badge.svg)](https://github.com/YunYouJun/air-conditioner/actions)
-
 云空调，便携小空调，为你的夏日带去清凉！
-
-前世今生：[云空调，便携小空调｜云游君的小站](https://www.yunyoujun.cn/posts/air-conditioner/)
-
-- 裸机：<https://ac.yunyoujun.cn>
-- 样板房：<https://www.yunyoujun.cn/air-conditioner-room/>
 
 ## Features
 
@@ -15,7 +8,7 @@
 
 - 随时随地打开空调
 - 便携
-- 低功耗（使用 HTML CSS 而非 Canvas 绘制）
+- 低功耗
 - 静音
 - 操作简单
 - 安装便捷
@@ -23,25 +16,6 @@
 ### 劣势
 
 - 没有风
-
-## 安装
-
-### iframe
-
-```html
-<iframe height="740" src="https://ac.yunyoujun.cn"></iframe>
-```
-
-您可以快速为您的网站安装空调。
-
-样板房：[空调房](https://www.yunyoujun.cn/air-conditioner-room/)
-
-### Docker
-
-部署时可使用以下环境变量进行配置自定义：
-
-* `AC_NGINX_DOMAIN` 指定域名
-* `AC_NGINX_PORT` 指定监听端口
 
 ## Dev
 
