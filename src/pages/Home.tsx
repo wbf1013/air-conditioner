@@ -83,21 +83,11 @@ function Home() {
             mode={ac.mode}
           />
           <div className="text-center">
-            <Box sx={{ mt: 2 }}>
-              <Button
-                variant="outlined"
-                onClick={() => {
-                  window.open("/rc", "_blank", "width=300, height=400");
-                }}
-              >
-                独立遥控器
-              </Button>
-            </Box>
-          </div>
-          <div className="text-center">
+            <Box sx={{mt:2}}>
             <Button variant="outlined" href="https://fan.faxiaosi.com/img/aamic-m8v4o1.jpg" target="_blank">
             🍉
             </Button>
+            </Box>
           </div>
           <RemoteControl />
           
