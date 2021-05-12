@@ -8,10 +8,6 @@ import { Provider } from "react-redux";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
 
-import ReactGA from "react-ga";
-ReactGA.initialize("UA-121354150-10");
-ReactGA.pageview(window.location.pathname + window.location.search);
-
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

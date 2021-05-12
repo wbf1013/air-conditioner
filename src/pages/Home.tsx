@@ -94,12 +94,13 @@ function Home() {
               </Button>
             </Box>
           </div>
-          <RemoteControl />
           <div className="text-center">
             <Button variant="outlined" href="https://fan.faxiaosi.com/img/aamic-m8v4o1.jpg" target="_blank">
-            空调房里吃🍉
+            🍉
             </Button>
           </div>
+          <RemoteControl />
+          
         </Box>
         <Toast />
       </Container>
